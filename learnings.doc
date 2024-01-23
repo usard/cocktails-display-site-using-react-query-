@@ -1,0 +1,5 @@
+1) if parent is in grid and if u set height of first child next childs will also have same height
+if u change the height of the other childs then first child height wont change accordingly if its height already set.
+
+2) only use axios for fetching thru api. if not, aren't getting data property in response.
+3) /* /index.html 200 , written in _redirects file in public folder, it tells the server to serve index.html for any path and respond with 200 (sucess), because if a user enters a url or refreshes the page with a specific route, the server will not have any idea of the path as we are doing client side routing(handling the routes from the client side), we use this when we deploy our app.
